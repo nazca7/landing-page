@@ -10,6 +10,10 @@ body,
     flex-direction: column;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .top-section {
     background-color: #1F2937;
     padding: 20px 300px 300px;
