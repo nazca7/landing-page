@@ -85,3 +85,32 @@ body {
     color: #F9FAF8;
     border-radius: 10px;
 }
+
+.members-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.members {
+    display: flex;
+    gap: 20px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #3388BB;
+    border-radius: 10px;
+}
