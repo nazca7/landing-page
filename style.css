@@ -16,7 +16,13 @@ body {
 
 .top-section {
     background-color: #3388BB;
-    padding: 20px 300px 300px;
+    align-items: center;
+    padding: 20px 0 100px;
+}
+
+.header,
+.hero {
+    width: 1000px;
 }
 
 .header {
@@ -37,4 +43,24 @@ body {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: bold;
+}
+
+.hero {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.hero img {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
