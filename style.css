@@ -163,6 +163,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1;
 }
 
 .call-section .card .left h2 {
@@ -174,6 +175,10 @@ body {
 }
 
 .call-section .card a {
-    flex-shrink: 0;
     text-decoration: none;
+    border: 2px solid #F9FAF8;
+    padding: 10px 25px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 10px;
 }
