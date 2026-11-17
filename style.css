@@ -140,3 +140,40 @@ body {
 #author {
     font-weight: bold;
 }
+
+.call-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.call-section .card {
+    width: 1000px;
+    background-color: #3388BB;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.call-section .card .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call-section .card .left h2 {
+    color: #F9FAF8;
+}
+
+.call-section .card .left p {
+    color: #E5E7EB;
+}
+
+.call-section .card a {
+    flex-shrink: 0;
+    text-decoration: none;
+}
