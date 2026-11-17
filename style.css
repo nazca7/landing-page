@@ -95,6 +95,11 @@ body {
     margin-bottom: 100px;
 }
 
+.members-section h2 {
+    color: #1F2937;
+    font-size: 30px;
+}
+
 .members {
     display: flex;
     gap: 20px;
